@@ -74,5 +74,18 @@ public class CalculatorTest {
 		assertEquals(actual, expected);
 		
 	}
+	
+	@Test
+	public final void testMod() {
+		int a = 10;
+		int b = 2;
+		
+		Calculator cal = new Calculator();
+		int actual = cal.mod(a, b);
+		
+		int expected = 0;
+		assertEquals(actual, expected);
+		
+	}
 
 }
